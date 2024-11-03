@@ -6,21 +6,20 @@ import {store} from './store';
 
 import './App.css';
 import React from 'react';
-import DropdownButton from './components/DropdownButton';
+import DropdownButton from './components/DropdownButton.jsx';
 
 const App = () => {
     return (
         <Provider store={store}>
             <Router>
                 <div className="App">
-                    <header>
-                        <h1>Weather App</h1>
+                    <header class = "header">
+                        <div class = "logo-section">
+                        <img id="icon" src="src/components/weatherapplogoinc.webp" />
+                        <h1 class= "logo-text">Weatherio</h1>
+                        </div>
                         <DropdownButton />
                     </header>
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/details" element={<Details />} />
-                    </Routes>
                 </div>
             </Router>
         </Provider>
