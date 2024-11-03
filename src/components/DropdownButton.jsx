@@ -9,11 +9,11 @@ const DropdownButton = () => {
 
   return (
     <div>
-      <button className = "list" onClick={toggleDropdown}>
+      <button className = "list-main" onClick={toggleDropdown}>
         Miejscowość
       </button>
       {isOpen && (
-        <ul style={{ border: '1px solid #ccc', listStyleType: 'none', padding: '10px' }}>
+        <ul class="list">
           <li>Warszawa</li>
           <li>Wrocław</li>
           <li>Poznań</li>

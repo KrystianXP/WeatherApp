@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(17,31,46);
 }
-p{
+.App{
   color: white;
 }
 .header{
@@ -16,7 +16,6 @@ p{
   width: 100%;
   background-color: rgb(58, 99, 120);
   justify-content: space-between;
-
 }
 .logo-section {
   display: flex;
@@ -28,22 +27,56 @@ p{
   font-weight: bold;
   font-size: 24px;
 }
-#name{
-  font-size: 24px;
-  font-weight: bold;
-}
-.list{
-  font-size: 24px;
+.list-main{
+  font-size: 32px;
   font-weight: bold;
   margin-right: 20px;
   background-color: rgb(58, 99, 120);
   color: white;
- 
+  border: '1px solid #ccc';
+  padding: '10px';
+}
+.list{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  background-color: rgb(58, 99, 120);
+  color: white;
+  border: '1px solid #ccc';
+  padding: '10px';
 }
 #icon{
   width: 100px;
   height: 100px;
 }
+.forecast{
+  background-color: black;
+  margin-top: 70px;
+  margin-left: 20%;
+  margin-right: 20%;
+  gap: 150px;
+}
+.first-block{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: 20%;
+  margin-right: 20%;
+  gap: 150px;
+}
+.second-block{
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.third-block{
+  display: flex;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
