@@ -13,10 +13,10 @@ const App = () => {
         <Provider store={store}>
             <Router>
                 <div className="App">
-                    <header class = "header">
-                        <div class = "logo-section">
+                    <header className = "header">
+                        <div className = "logo-section">
                         <img id="icon" src="src/components/weatherapplogoinc.webp" />
-                        <h1 class= "logo-text">Weatherio</h1>
+                        <h1 className= "logo-text">Weatherio</h1>
                         </div>
                         <DropdownButton />
                     </header>
